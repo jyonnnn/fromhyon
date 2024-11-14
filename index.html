@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalogue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: rgba(245, 240, 230, 0.9);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            color: #333;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px 60px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+        .product img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-bottom: 15px;
+        }
+        .product-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 5px;
+        }
+        .product-desc {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .price-wrapper {
+            font-size: 16px;
+            color: #888;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Baby and Maternity Product Catalogue</h1>
+    <div class="product-grid">
+        <div class="product">
+            <img src="IMG_1433.jpg" alt="Product 1">
+            <div class="product-name">POGNAE</div>
+            <div class="product-desc">Địu em bé</div>
+            <div class="price-wrapper">Giá gốc: ₩309,000 | Giá bán: ₩313,000 | 6,460,000 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="IMG_1434.jpg" alt="Product 2">
+            <div class="product-name">HAAVEBRICKS</div>
+            <div class="product-desc">Đồ chơi cho bé tập cầm tay</div>
+            <div class="price-wrapper">Giá gốc: ₩27,000 | Giá bán: ₩31,000 | 820,000 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="IMG_1516.jpg" alt="Product 3">
+            <div class="product-name">ATOPALM</div>
+            <div class="product-desc">Lotion cho bé</div>
+            <div class="price-wrapper">Giá gốc: ₩25,000 | Giá bán: ₩29,000 | 780,000 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="IMG_1518.jpg" alt="Product 4">
+            <div class="product-name">NOELO</div>
+            <div class="product-desc">Cream bôi cho mẹ bầu</div>
+            <div class="price-wrapper">Giá gốc: ₩63,000 | Giá bán: ₩67,000 | 1,540,000 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="IMG_1519.jpg" alt="Product 5">
+            <div class="product-name">MYHANIL</div>
+            <div class="product-desc">Máy hút mũi em bé</div>
+            <div class="price-wrapper">Giá gốc: ₩230,000 | Giá bán: ₩234,000 | 4,880,000 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="IMG_1525.jpg" alt="Product 6">
+            <div class="product-name">ORGANICGROUND</div>
+            <div class="product-desc">Nước xả vải cho bé</div>
+            <div class="price-wrapper">Giá gốc: ₩47,000 | Giá bán: ₩51,000 | 1,220,000 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="IMG_1527.jpg" alt="Product 7">
+            <div class="product-name">TGM</div>
+            <div class="product-desc">Ti giả trái tim</div>
+            <div class="price-wrapper">Giá gốc: ₩8 | Giá bán: ₩4,008 | 280,150 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="IMG_1532.jpg" alt="Product 8">
+            <div class="product-name">FIGER FISHING</div>
+            <div class="product-desc">Vòng cầm tay</div>
+            <div class="price-wrapper">Giá gốc: ₩17,000 | Giá bán: ₩21,000 | 620,000 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="IMG_1535.jpg" alt="Product 9">
+            <div class="product-name">MILK-HOUSE</div>
+            <div class="product-desc">Nệm nằm dạng gấp cho bé</div>
+            <div class="price-wrapper">Giá gốc: ₩89,000 | Giá bán: ₩93,000 | 2,060,000 ₫</div>
+        </div>
+    </div>
+    
+    <div class="contact-info">
+        123-456-7890<br>
+        www.reallygreatsite.com<br>
+        123 Anywhere St., Any City
+    </div>
+</div>
+
+</body>
+</html>
