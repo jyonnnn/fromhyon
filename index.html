@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalogue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: rgba(245, 240, 230, 0.9);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            color: #333;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px 60px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+        .product img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-bottom: 15px;
+        }
+        .product-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 5px;
+        }
+        .product-desc {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .price-wrapper {
+            font-size: 16px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Baby and Maternity Product Catalogue</h1>
+    <div class="product-grid">
+        <div class="product">
+            <img src="04.png" alt="Kem rạn bụng">
+            <div class="product-name">Big green</div>
+            <div class="product-desc">Kem rạn bụng</div>
+            <div class="price-wrapper">Giá bán: 584,913 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="03.png" alt="Kem rạn bụng">
+            <div class="product-name">Atopalm</div>
+            <div class="product-desc">Kem rạn bụng</div>
+            <div class="price-wrapper">Giá bán: 393,436.6 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="02.png" alt="Dầu bôi rạn bụng">
+            <div class="product-name">Bio oil</div>
+            <div class="product-desc">Dầu bôi rạn bụng</div>
+            <div class="price-wrapper">Giá bán: 287,007 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="01.png" alt="Vitamin bầu">
+            <div class="product-name">술가</div>
+            <div class="product-desc">Vitamin bầu</div>
+            <div class="price-wrapper">Giá bán: 161,685.8 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="05.jpg" alt="Vitamin bầu">
+            <div class="product-name">Doctor hồng</div>
+            <div class="product-desc">Vitamin bầu</div>
+            <div class="price-wrapper">Giá bán: 351,363 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="06.jpg" alt="Vitamin bầu">
+            <div class="product-name">Dr.edition xanh</div>
+            <div class="product-desc">Vitamin bầu</div>
+            <div class="price-wrapper">Giá bán: 454,990 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="07.jpg" alt="Bình sữa cao cấp">
+            <div class="product-name">UPANG</div>
+            <div class="product-desc">Bình sữa cao cấp</div>
+            <div class="price-wrapper">Giá bán: 1,004,092 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="08.jpg" alt="Bình sữa cao cấp">
+            <div class="product-name">Philips Avent</div>
+            <div class="product-desc">Bình sữa cao cấp</div>
+            <div class="price-wrapper">Giá bán: 835,417 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="09.jpg" alt="Bình sữa cao cấp">
+            <div class="product-name">Moyuum</div>
+            <div class="product-desc">Bình sữa cao cấp</div>
+            <div class="price-wrapper">Giá bán: 806,180 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="010.jpg" alt="Thảm chơi cho bé">
+            <div class="product-name">whittlestore</div>
+            <div class="product-desc">Thảm chơi cho bé</div>
+            <div class="price-wrapper">Giá bán: 따로계산</div>
+        </div>
+
+        <div class="product">
+            <img src="011.jpg" alt="Thảm chơi cho bé">
+            <div class="product-name">Infantino</div>
+            <div class="product-desc">Thảm chơi cho bé</div>
+            <div class="price-wrapper">Giá bán: 828,670 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="012.jpg" alt="Thảm chơi cho bé">
+            <div class="product-name">care mom</div>
+            <div class="product-desc">Thảm chơi cho bé</div>
+            <div class="price-wrapper">Giá bán: 252,407 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="013.jpg" alt="Đỡ bụng bầu">
+            <div class="product-name">care mom</div>
+            <div class="product-desc">Đỡ bụng bầu</div>
+            <div class="price-wrapper">Giá bán: 761,200 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="014.PNG" alt="Set đồ ăn dặm">
+            <div class="product-name">mother's baby</div>
+            <div class="product-desc">Set đồ ăn dặm</div>
+            <div class="price-wrapper">Giá bán: 1,717,025 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="015.PNG" alt="Set đồ ăn dặm">
+            <div class="product-name">베이비본</div>
+            <div class="product-desc">Set đồ ăn dặm</div>
+            <div class="price-wrapper">Giá bán: 1,143,530 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="016.PNG" alt="Set đồ ăn dặm">
+            <div class="product-name">베이비본</div>
+            <div class="product-desc">Set đồ ăn dặm</div>
+            <div class="price-wrapper">Giá bán: 986,100 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="017.jpg" alt="Thảm tròn cho bé">
+            <div class="product-name">퍼펙션 플래티늄</div>
+            <div class="product-desc">Thảm tròn cho bé</div>
+            <div class="price-wrapper">Giá bán: 1,435,900 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="018.PNG" alt="Thảm tròn cho bé">
+            <div class="product-name">라라스베게</div>
+            <div class="product-desc">Thảm tròn cho bé</div>
+            <div class="price-wrapper">Giá bán: 1,885,700 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="019.PNG" alt="Thảm tròn cho bé">
+            <div class="product-name">쿠나밀착수유쿠션</div>
+            <div class="product-desc">Đẹo bé ti sữa</div>
+            <div class="price-wrapper">Giá bán: 1,211,000 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="020.PNG" alt="Ti giả">
+            <div class="product-name">Moyuum</div>
+            <div class="product-desc">Ti giả</div>
+            <div class="price-wrapper">Giá bán: 367,625 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="021.PNG" alt="Ti giả">
+            <div class="product-name">Moyuum</div>
+            <div class="product-desc">Ti giả</div>
+            <div class="price-wrapper">Giá bán: 952,365 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="022.PNG" alt="Ti giả">
+            <div class="product-name">Moyuum</div>
+            <div class="product-desc">Ti giả</div>
+            <div class="price-wrapper">Giá bán: 394,613 ₫</div>
+        </div>
+
+        <div class="product">
+            <img src="023.PNG" alt="Ti giả">
+            <div class="product-name">Moyuum</div>
+            <div class="product-desc">Ti giả</div>
+            <div class="price-wrapper">Giá bán: 277,665 ₫</div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
